@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  has_many topic
+  has_many :topics
 end
